@@ -35,6 +35,7 @@ Fraction addFraction(Fraction a, Fraction b) {
     result.denom = a.denom * b.denom;
     result.num = (a.num * b.denom) + (a.denom * b.num);
     return result;
+
 }
 
 Fraction subFraction(Fraction a, Fraction b) {
@@ -42,6 +43,8 @@ Fraction subFraction(Fraction a, Fraction b) {
     result.denom = a.denom * b.denom;
     result.num = (a.num * b.denom) - (a.denom * b.num);
     return result;
+
+
 }
 
 Fraction mulFraction(Fraction a, Fraction b) {
